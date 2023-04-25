@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./imagem/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+   
+}
+
+.card-{
+    background-color: #2f3542;
+    padding: 0 30px;
+    margin: 0 10px;
+    width: calc(33%, 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.card-icon{
+    font-size: 28px;
+    background-color: #f15e44;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+    margin-right: 62px;
+    margin-left: 66px;
+    padding: auto;
+    
+    
+}
+.card-:hover .card-icon{
+    background: none;
+    color: #f15e44;
+    transform: scale(1.6);
+
+}
+.card- a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.card- p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+    
+    
+
+}
+
+.card-:hover p{
+    max-height: 400px;
+    opacity: 1;
+    color: #fff;
+}
