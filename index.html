@@ -37,14 +37,14 @@
     <div class="bloco1">
       <h1>João Pedro Estevão Louback</h1>
 
-      <img src="./imagem/img.jpg" alt="" class="imagem-principal">
+      <img src="./imagens/img.jpg" alt="" class="imagem-principal">
     </div>
     <div class="bloco2">
       <h2>Computer science student</h2>
       <div class="social-media1">
         <div class="linkedin">
           <a href="https://www.linkedin.com/in/joaopedrobr/">
-            <img src="./imagem/img-linkedin.png" alt="" class="imagem-linkedin">
+            <img src="./imagens/img-linkedin.png" alt="" class="imagem-linkedin">
           </a>
         </div>
         <a href="https://www.linkedin.com/in/joaopedrobr/">Linkedin </a>
@@ -52,7 +52,7 @@
       </div>
       <div class="social-media2">
         <a href="https://github.com/joaolouback">
-          <img src="./imagem/img-github.png" alt="" class="imagem-git" width="30px">
+          <img src="./imagens/img-github.png" alt="" class="imagem-git" width="30px">
         </a>
         <a href="https://github.com/joaolouback">GitHub </a>
       </div>
@@ -108,6 +108,23 @@
 <footer class="footer">
  <p> Copyright &copy; design by João Pedro </p>
  </footer>
+
+ <script>
+  
+  window.onload = function() {
+    var socialMedia1 = document.querySelector('.social-media1');
+    var socialMedia2 = document.querySelector('.social-media2');
+
+    socialMedia1.addEventListener('click', function() {
+      window.location.href = 'https://www.linkedin.com/in/joaopedrobr/';
+    });
+
+    socialMedia2.addEventListener('click', function() {
+      window.location.href = 'https://github.com/joaolouback';
+    });
+  };
+
+ </script>
 
 
 </html>
