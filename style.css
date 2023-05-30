@@ -113,7 +113,7 @@ h2{
 .social-media1,
 .social-media2 {
   padding: 1rem 4px;
-  border: 2px solid rgb(75, 73, 73);
+  border: 3px solid rgb(114, 109, 109);
   align-items: center;
   justify-content: center;
   width: 22em;
@@ -122,13 +122,20 @@ h2{
 
 .social-media1 a ,
 .social-media2 a {
-  color: #09c752;
+  color: #3a13c7;
   font-size: 27px;
   margin-left: 5px;
   text-decoration: none;
   font-family: 'Teko', sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.social-media1 a:hover{
+  color: #ffffff;
+}
+.social-media2 a:hover{
+  color: #ffffff;
 }
 
 .social-media1:hover {
@@ -375,6 +382,9 @@ main {
     color: #fff;
 }
 
+
+
+
 @media only screen and (max-width: 768px) {
   .menu-itens ul li a{
     margin-right: 15px;
@@ -396,14 +406,15 @@ main {
   }
   
   h1 {
-    margin-top: 1em;
+    margin-top: 5em;
     font-size: 28px;
+    
   }
   
   h2 {
     margin: 0;
     padding: 0;
-    margin-top: 0.5em;
+    margin-top: 3em;
     width: auto;
     font-size: 20px;
     margin-bottom: 1.5em;
@@ -419,7 +430,10 @@ main {
     margin-top: 2em;
   }
   
-
+  .social-media1 ,
+  .social-media2 {
+    width: 15em;
+  }
   
   .card-container {
     flex-direction: column;
